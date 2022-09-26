@@ -19,7 +19,7 @@ services:
             MYSQL_ROOT_PASSWORD: 'secret'
             MYSQL_USER: 'jtmullins'
             MYSQL_PASSWORD: 'secret'
-            MYSQL_DATABASE: 'MM'
+            MYSQL_DATABASE: 'MonsterMatch'
         volumes:
             - mysqldata:/var/lib/mysql
         ports:
