@@ -1,13 +1,14 @@
 version: '3'
 services:
-azure-vote-back:
+  azure-vote-back:
     image: mcr.microsoft.com/oss/bitnami/redis:6.0.8
     container_name: azure-vote-back
     environment:
       ALLOW_EMPTY_PASSWORD: "yes"
     ports:
-         - "6379:6379"
-azure-vote-front:
+        - "6379:6379"
+
+  azure-vote-front:
     build: ./azure-vote
     image: myregistry.azurecr.io/azure-vote-front
     container_name: azure-vote-front
@@ -15,29 +16,3 @@ azure-vote-front:
       REDIS: azure-vote-back
     ports:
         - "80:80"
-    web:
-        image: nginx:latest
-        ports:
-            - "80:80"
-        volumes:
-            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
-            - ./app:/app
-    php:
-        build: 
-            context: .
-            dockerfile: PHP.Dockerfile
-        volumes:
-            - ./app:/app
-    mysql:
-        image: mariadb:latest
-        environment:
-            MYSQL_ROOT_PASSWORD: 'secret'
-            MYSQL_USER: 'jtmullins'
-            MYSQL_PASSWORD: 'secret'
-            MYSQL_DATABASE: 'MonsterMatch'
-        volumes:
-            - mysqldata:/var/lib/mysql
-        ports:
-            - 3306:3306
-volumes:
-    mysqldata: {}
