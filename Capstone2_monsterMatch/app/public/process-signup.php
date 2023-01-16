@@ -1,5 +1,4 @@
 <?php
-
 if (empty($_POST["name"])) {
     die("Name is required");
 }
@@ -32,7 +31,7 @@ $query = "INSERT INTO user (name, email, password) VALUES (?, ?, ?)";
 try {
     $pdo->prepare($query)->execute([$_POST["name"], $_POST["email"], $password_hash]);
     header("Location: signup-success.html");
-    exit;
+    exit();
 } catch (PDOException $e) {
     if ($e->errorInfo[1]) {
         echo "User already exists";

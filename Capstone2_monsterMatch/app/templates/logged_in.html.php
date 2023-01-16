@@ -12,7 +12,6 @@
     <?php if ($out): ?>
         <p> Your Character is <?= htmlspecialchars($out["character_name"]) ?> </p>
     <?php else: ?>
-
         <form action="" method="post" id="select" novalidate>
             <fieldset>
                 <legend>Select Your Monster</legend>
@@ -26,16 +25,8 @@
                 <button>Submit</button>
             </fieldset>
         </form>
-
         <?php if (isset($_POST["monster"])) {
-            //echo $_POST["monster"];
             include __DIR__ . "/../public/create_character.php";
-            /*
-            $pdo = require __DIR__ . "/../public/database.php";
-            $query = "INSERT INTO characters (user_id, character_name) VALUES (?, ?)";
-            $pdo->prepare($query)->execute([$user["id"], $_POST["monster"]]);
-            header("Refresh:0");
-            */
         }
     endif; ?>
 </body>
