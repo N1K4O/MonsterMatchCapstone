@@ -26,7 +26,7 @@ if (isset($_SESSION["user_id"])) {
 
 <body>
 
-    <h1>Homee</h1>
+    <h1>Home</h1>
 
     <?php if (isset($user)):
 
