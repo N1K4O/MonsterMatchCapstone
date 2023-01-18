@@ -13,9 +13,9 @@
         <p>Your Group ID is <?= htmlspecialchars($group_out["group_id"]) ?> </p>
         <p>Your Group Name is <?= htmlspecialchars($group_out["group_name"]) ?> </p>
     <?php endif ?>
-    <?php if ($group_out["user_id"] == $user["id"] && $group_out["group_leader"] == $user["name"]): ?>
+    <?php if ($group_out && $group_out["user_id"] == $user["id"] && $group_out["group_leader"] == $user["name"]): ?>
         <p>You are the Group Leader</p>
-    <?php else: ?>
+    <?php elseif ($group_out): ?>
         <p>Your Group Leader is <?= htmlspecialchars($group_out["group_leader"]) ?> </p>
     <?php endif ?>
 
