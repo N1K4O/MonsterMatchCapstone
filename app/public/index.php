@@ -13,7 +13,7 @@ if (isset($_SESSION["user_id"])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Monster Mash</title>
+    <title>Home - MonsterMash</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Inter:300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800&amp;display=swap">
@@ -70,42 +70,42 @@ if (isset($_SESSION["user_id"])) {
                             <div class="container py-5">
                                 <div class="row row-cols-2 row-cols-md-3 mx-auto" style="max-width: 700px;">
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded swing animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Dracula-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded bounce animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Ghostface-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded tada animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Jack-o-lantern-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded pulse animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Mummy-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded jello animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Mike-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded rubberBand animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Zombie-PVZ-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
