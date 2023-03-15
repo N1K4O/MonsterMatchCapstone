@@ -5,10 +5,10 @@ $int = (int) $user_id;
 $user_name = $_SESSION["user_name"];
 $id = rand(1, 100);
 $pdo = require __DIR__ . "/database.php";
-$query = "INSERT INTO group_table (user_id, group_name, group_leader, group_id) VALUES (?, ?, ?, ?)";
+$query = "INSERT INTO group_table (user_id, group_name, group_leader, group_id, group_leader_name) VALUES (?, ?, ?, ?, ?)";
 
 try {
-    $pdo->prepare($query)->execute([$int, $_POST["group_name"], $user_name, $id]);
+    $pdo->prepare($query)->execute([$int, $_POST["group_name"], "Y", $id, $user_name]);
     header("Location: index.php");
     exit();
 
@@ -16,5 +16,4 @@ try {
 } catch (PDOException $e) {
     throw $e;
 }
-
 ?>

@@ -36,7 +36,7 @@ try {
     $result = $pdo->query($getGroup);
     $output = $result->fetch();
     $insertGroup = "INSERT INTO group_table (user_id, group_name, group_leader, group_id) VALUES (?, ?, ?, ?)";
-    $pdo->prepare($insertGroup)->execute([$userID, $output["group_name"], $output["group_leader"], $_POST["group_id"]]);
+    $pdo->prepare($insertGroup)->execute([$userID, $output["group_name"], "N", $_POST["group_id"]]);
     exit();
 } catch (PDOException $e) {
     if ($e->errorInfo[1]) {
