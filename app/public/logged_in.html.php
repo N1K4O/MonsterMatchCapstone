@@ -53,10 +53,9 @@
                     <input type="radio" id="zombie" name="monster" value="Zombie">
                     <label for="zombie">Zombie</label><br>
                     <input type="radio" id="ghost" name="monster" value="Ghost">
-                    <label for="ghost">Ghost</label>
+                    <label for="ghost">Ghost</label><br>
                     <input type="radio" id="mummy" name="monster" value="Mummy">
-                    <label for="mummy">Mummy</label>
-                    <br>
+                    <label for="mummy">Mummy</label><br>
                     <button>Submit</button>
                 </fieldset>
             </form>

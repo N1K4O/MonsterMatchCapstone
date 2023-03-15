@@ -77,35 +77,35 @@ if (isset($_SESSION["user_id"])) {
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded bounce animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Ghostface-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded tada animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Jack-o-lantern-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded pulse animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Mummy-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded jello animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Mike-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
                                         </div>
                                     </div>
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded rubberBand animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Zombie-PVZ-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
