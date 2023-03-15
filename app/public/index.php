@@ -70,7 +70,7 @@ if (isset($_SESSION["user_id"])) {
                             <div class="container py-5">
                                 <div class="row row-cols-2 row-cols-md-3 mx-auto" style="max-width: 700px;">
                                     <div class="col mb-4">
-                                        <div class="text-center"><img class="rounded mb-3 fit-cover" width="150"
+                                        <div class="text-center"><img class="rounded swing animated infinite mb-3 fit-cover" width="150"
                                                 height="150" src="assets/img/products/Dracula-icon.png">
                                             <h5 class="fw-bold mb-0"><strong>John Smith</strong></h5>
                                             <p class="text-muted mb-2">Erat netus</p>
