@@ -27,7 +27,7 @@ if (isset($_SESSION["user_id"])) {
             <div class="row pt-5">
                 <div class="col-md-8 col-xl-6 text-center text-md-start mx-auto">
                     <div class="text-center">
-                        <h3 class="display-3 fw-bold text-center"><span style="color: rgb(4, 188, 44);">Create A Group</span></h3>
+                        <h3 class="display-3 fw-bold text-center"><span style="color: rgb(4, 188, 44);">Join A Group</span></h3>
                         <br>
                         <form action="join_group.php" method="post" id="join_group" novalidate>
                             <div class="text-center">
