@@ -37,12 +37,11 @@ if (isset($_SESSION["user_id"])) {
                         $get_group = "SELECT * FROM group_table WHERE user_id = $user_id";
                         $result3 = $mysqli->query($get_group);
                         $group_out = $result3->fetch();
-                        //$group_id = $group_out["group_id"];
                         /*
+                        $group_id = $group_out["group_id"];
                         $group_members = "SELECT user_id FROM group_table WHERE group_id = $group_id";
-                        $result4 = $mysqli->prepare($group_members);
-                        $result4->execute();
-                        $member_out = $result4->fetch(PDO::FETCH_ASSOC);
+                        $result4 = $mysqli->query($group_members);
+                        $member_out = $result4->fetch();
                         */
 
                         include __DIR__ . '/logged_in.html.php';
