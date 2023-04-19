@@ -11,7 +11,6 @@ if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
 if (strlen($_POST["password"]) < 8) {
     echo "Password must be at least 8 characters";
     die("Password must be at least 8 characters");
-    
 }
 
 if (!preg_match("/[a-z]/i", $_POST["password"])) {
