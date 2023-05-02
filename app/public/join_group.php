@@ -19,7 +19,7 @@ if(count($group_count) < 6){
 $query_name = "SELECT * from group_table WHERE group_id = $id";
 $query = "INSERT INTO group_table (user_id, group_name, group_leader, group_id, group_leader_name) VALUES (?, ?, ?, ?, ?)";
 
-try {
+try { //
     $result = $pdo->query($query_name);
     $group_data = $result->fetch();
     $pdo->prepare($query)->execute([$int, $group_data['group_name'], "N", $id, $group_data['group_leader_name']]);
